@@ -1,4 +1,4 @@
-# Is this AI?
+# Model Description
 
 ## Overview
 This repository contains an AI-powered text detection model designed to classify text as either AI-generated or human-written. The model utilizes deep learning techniques to analyze linguistic patterns and distinguish between different text sources.
