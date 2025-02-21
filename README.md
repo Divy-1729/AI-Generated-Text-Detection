@@ -1,5 +1,5 @@
 # Is this AI?
-Current AI plagarism checkers suck, so I built my own.
+Current AI plagiarism checkers suck, so I built my own.
 
 ## Overview
 This repository contains an AI-powered text detection model designed to classify text as either AI-generated or human-written. The project is organized into two main directories:
@@ -11,15 +11,10 @@ This repository contains an AI-powered text detection model designed to classify
 ├── Model/
 │   ├── ai_text_detector.ipynb    # Jupyter Notebook for model development and experimentation
 │   ├── ai_text_detector_model.h5 # Trained model file
-│   ├── app.py                    # Streamlit application for model deployment
-│   ├── requirements.txt          # Python dependencies
 │   └── README.md                 # Documentation for the Model directory
 │
 ├── Data/
-│   ├── ai_texts/                 # Directory containing AI-generated essays
-│   ├── human_texts/              # Directory containing human-written essays
-│   ├── metadata.csv              # Metadata for each essay
-│   └── README.md                 # Documentation for the Data directory
+│   └── README.md                 # Documentation for the Data directory, and link to the dataset.
 │
 └── README.md                     # Main project documentation
 ```
@@ -59,16 +54,6 @@ This repository contains an AI-powered text detection model designed to classify
    ```
    Follow the steps in the notebook to preprocess the data, train the model, and evaluate its performance.
 
-### Deploying the Model with Streamlit
-1. **Ensure you're in the `Model` directory**:
-   ```bash
-   cd Model
-   ```
-2. **Run the Streamlit application**:
-   ```bash
-   streamlit run app.py
-   ```
-   This will launch a web interface where you can input text and receive predictions on whether it's AI-generated or human-written.
 
 ## Dataset
 The dataset used in this project is the ["AI vs Human Text" dataset](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text/data), which comprises approximately 500,000 essays, both AI-generated and human-written. Detailed information about the dataset and its structure can be found in the `Data/README.md` file.
